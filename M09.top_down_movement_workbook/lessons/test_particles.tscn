@@ -1,0 +1,53 @@
+[gd_scene load_steps=10 format=3 uid="uid://cse67svnxufpc"]
+
+[ext_resource type="Texture2D" uid="uid://tgs14f485wph" path="res://assets/kenney-particles/smoke_04.png" id="1_tijor"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_tijor"]
+blend_mode = 1
+
+[sub_resource type="Curve" id="Curve_tijor"]
+_data = [Vector2(0, 0.6210393), 0.0, 2.0410855, 0, 0, Vector2(0.32435343, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_jvfiu"]
+curve = SubResource("Curve_tijor")
+
+[sub_resource type="Gradient" id="Gradient_7shq5"]
+offsets = PackedFloat32Array(0, 0.5812357)
+colors = PackedColorArray(0.62002724, 0.33791474, 2.8878452e-07, 1, 0.69919544, 2.0816549e-06, 6.738305e-07, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_pfdc8"]
+gradient = SubResource("Gradient_7shq5")
+
+[sub_resource type="Curve" id="Curve_8oawm"]
+_data = [Vector2(0, 0), 0.0, 11.41275, 0, 0, Vector2(0.24892242, 1), 0.0, 0.0, 0, 0, Vector2(0.81788796, 0.01493752), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_254b7"]
+curve = SubResource("Curve_8oawm")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_jvfiu"]
+particle_flag_disable_z = true
+emission_shape = 1
+emission_sphere_radius = 10.0
+angle_min = -179.99998
+angle_max = 180.00002
+direction = Vector3(0, -1, 0)
+spread = 0.0
+initial_velocity_min = 50.0
+initial_velocity_max = 70.0
+gravity = Vector3(0, 0, 0)
+scale_min = 0.19999999
+scale_max = 0.19999999
+scale_curve = SubResource("CurveTexture_254b7")
+color_ramp = SubResource("GradientTexture1D_pfdc8")
+alpha_curve = SubResource("CurveTexture_jvfiu")
+
+[node name="TestParticles" type="Node2D"]
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+material = SubResource("CanvasItemMaterial_tijor")
+amount = 30
+texture = ExtResource("1_tijor")
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_jvfiu")
