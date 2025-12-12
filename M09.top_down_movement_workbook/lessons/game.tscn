@@ -34,47 +34,6 @@ position = Vector2(-905, -613)
 unique_name_in_owner = true
 position = Vector2(-1343, 43)
 
-[node name="Obstables" type="Node" parent="."]
-
-[node name="SimpleObstacle" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(-667, -829)
-
-[node name="SimpleObstacle2" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(-166, -959)
-
-[node name="SimpleObstacle3" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(365, -835)
-
-[node name="SimpleObstacle4" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(1412, 18)
-
-[node name="SimpleObstacle5" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(1277, -216)
-
-[node name="SimpleObstacle7" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(1276, 248)
-
-[node name="SimpleObstacle8" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(896, 646)
-
-[node name="SimpleObstacle9" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(385, 275)
-
-[node name="SimpleObstacle10" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(-1, -125)
-
-[node name="SimpleObstacle11" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(-380, 257)
-
-[node name="SimpleObstacle12" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(-901, 643)
-
-[node name="SimpleObstacle13" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(-1409, 262)
-
-[node name="CircuitObstacle" parent="." instance=ExtResource("1_4o7yg")]
-metadata/_edit_lock_ = true
-
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="CountDown" type="Label" parent="CanvasLayer"]
@@ -100,3 +59,17 @@ metadata/_custom_type_script = "uid://57e8080cpukf"
 [node name="PauseScreen" parent="CanvasLayer" instance=ExtResource("9_tpjcj")]
 process_mode = 3
 menu_opened_amount = 1.0
+
+[node name="Obstables" type="Node" parent="."]
+
+[node name="SimpleObstacle" parent="Obstables" instance=ExtResource("1_yasw7")]
+position = Vector2(-168, -962)
+
+[node name="SimpleObstacle2" parent="Obstables" instance=ExtResource("1_yasw7")]
+position = Vector2(1343, 29)
+
+[node name="SimpleObstacle3" parent="Obstables" instance=ExtResource("1_yasw7")]
+position = Vector2(-3, -139)
+
+[node name="CircuitObstacle" parent="." instance=ExtResource("1_4o7yg")]
+metadata/_edit_lock_ = true
