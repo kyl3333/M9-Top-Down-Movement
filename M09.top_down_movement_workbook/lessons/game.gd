@@ -12,8 +12,7 @@ func _ready() -> void:
 
 		runner.set_physics_process(false)
 		var destination_position := (
-			_finish_line.global_position
-			+ Vector2(0, 64)
+			_finish_line.global_position + Vector2(0, 64)
 		)
 
 		runner.walk_to(destination_position)
