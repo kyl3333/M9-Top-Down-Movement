@@ -17,22 +17,126 @@ y_sort_enabled = true
 script = ExtResource("1_48faf")
 
 [node name="Background" type="Sprite2D" parent="."]
-z_index = -1
+z_index = -2
 texture = ExtResource("1_gkp25")
 metadata/_edit_lock_ = true
 
 [node name="FinishLine" parent="." instance=ExtResource("2_sepuf")]
 unique_name_in_owner = true
+z_index = -1
 position = Vector2(-1345, 75)
 area_width = 256
 
 [node name="Runner" parent="." instance=ExtResource("2_4o7yg")]
 unique_name_in_owner = true
-position = Vector2(-905, -613)
+position = Vector2(-1278, -286)
 
-[node name="Bouncer" parent="." instance=ExtResource("5_8c4bg")]
+[node name="Bouncers" type="Node2D" parent="."]
+
+[node name="Bouncer" parent="Bouncers" instance=ExtResource("5_8c4bg")]
 unique_name_in_owner = true
-position = Vector2(-1343, 43)
+position = Vector2(-1427, 392)
+wall_min_slide_angle = 0.7853982
+acceleration = 3000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer2" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1343, 393)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer3" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1262, 391)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer4" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1426, 300)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer5" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1343, 299)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer6" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1262, 296)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer7" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1427, 224)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer8" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1341, 224)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer9" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1257, 224)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer10" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1425, 147)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer11" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1346, 145)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer12" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1261, 142)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer13" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1424, 64)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer14" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1344, 66)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
+
+[node name="Bouncer15" parent="Bouncers" instance=ExtResource("5_8c4bg")]
+unique_name_in_owner = true
+position = Vector2(-1259, 64)
+wall_min_slide_angle = 0.7853982
+acceleration = 2000.0
+avoidance_strength = 25000.0
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
@@ -63,13 +167,13 @@ menu_opened_amount = 1.0
 [node name="Obstables" type="Node" parent="."]
 
 [node name="SimpleObstacle" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(-168, -962)
+position = Vector2(-168, -988)
 
 [node name="SimpleObstacle2" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(1343, 29)
+position = Vector2(1408, 29)
 
 [node name="SimpleObstacle3" parent="Obstables" instance=ExtResource("1_yasw7")]
-position = Vector2(-3, -139)
+position = Vector2(-3, -278)
 
 [node name="CircuitObstacle" parent="." instance=ExtResource("1_4o7yg")]
 metadata/_edit_lock_ = true

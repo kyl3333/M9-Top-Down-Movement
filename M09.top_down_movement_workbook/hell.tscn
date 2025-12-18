@@ -1,0 +1,779 @@
+[gd_scene load_steps=3 format=3 uid="uid://drv511xdlx710"]
+
+[ext_resource type="PackedScene" uid="uid://b766pis4r3r6s" path="res://lessons/runner.tscn" id="1_u7518"]
+[ext_resource type="PackedScene" uid="uid://budpgxkjtmw1f" path="res://lessons/bouncer.tscn" id="2_cemct"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Runner" parent="." instance=ExtResource("1_u7518")]
+position = Vector2(1024, 641)
+
+[node name="Bouncers" type="Node2D" parent="."]
+
+[node name="Bouncer" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-28, 85)
+
+[node name="Bouncer2" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-30, -91)
+
+[node name="Bouncer3" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-28, 449)
+
+[node name="Bouncer4" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-30, 273)
+
+[node name="Bouncer5" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-202, 85)
+
+[node name="Bouncer6" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-204, -91)
+
+[node name="Bouncer7" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-202, 449)
+
+[node name="Bouncer8" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-204, 273)
+
+[node name="Bouncer9" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-389, 85)
+
+[node name="Bouncer10" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-391, -91)
+
+[node name="Bouncer11" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-389, 449)
+
+[node name="Bouncer12" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-391, 273)
+
+[node name="Bouncer13" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-563, 85)
+
+[node name="Bouncer14" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-565, -91)
+
+[node name="Bouncer15" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-563, 449)
+
+[node name="Bouncer16" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-565, 273)
+
+[node name="Bouncer17" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-28, -636)
+
+[node name="Bouncer18" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-30, -812)
+
+[node name="Bouncer19" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-28, -272)
+
+[node name="Bouncer20" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-30, -448)
+
+[node name="Bouncer21" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-202, -636)
+
+[node name="Bouncer22" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-204, -812)
+
+[node name="Bouncer23" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-202, -272)
+
+[node name="Bouncer24" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-204, -448)
+
+[node name="Bouncer25" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-389, -636)
+
+[node name="Bouncer26" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-391, -812)
+
+[node name="Bouncer27" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-389, -272)
+
+[node name="Bouncer28" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-391, -448)
+
+[node name="Bouncer29" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-563, -636)
+
+[node name="Bouncer30" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-565, -812)
+
+[node name="Bouncer31" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-563, -272)
+
+[node name="Bouncer32" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-565, -448)
+
+[node name="Bouncer33" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-754, 85)
+
+[node name="Bouncer34" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-756, -91)
+
+[node name="Bouncer35" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-754, 449)
+
+[node name="Bouncer36" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-756, 273)
+
+[node name="Bouncer37" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-928, 85)
+
+[node name="Bouncer38" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-930, -91)
+
+[node name="Bouncer39" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-928, 449)
+
+[node name="Bouncer40" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-930, 273)
+
+[node name="Bouncer41" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1115, 85)
+
+[node name="Bouncer42" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1117, -91)
+
+[node name="Bouncer43" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1115, 449)
+
+[node name="Bouncer44" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1117, 273)
+
+[node name="Bouncer45" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1289, 85)
+
+[node name="Bouncer46" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1291, -91)
+
+[node name="Bouncer47" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1289, 449)
+
+[node name="Bouncer48" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1291, 273)
+
+[node name="Bouncer49" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-754, -636)
+
+[node name="Bouncer50" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-756, -812)
+
+[node name="Bouncer51" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-754, -272)
+
+[node name="Bouncer52" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-756, -448)
+
+[node name="Bouncer53" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-928, -636)
+
+[node name="Bouncer54" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-930, -812)
+
+[node name="Bouncer55" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-928, -272)
+
+[node name="Bouncer56" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-930, -448)
+
+[node name="Bouncer57" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1115, -636)
+
+[node name="Bouncer58" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1117, -812)
+
+[node name="Bouncer59" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1115, -272)
+
+[node name="Bouncer60" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1117, -448)
+
+[node name="Bouncer61" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1289, -636)
+
+[node name="Bouncer62" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1291, -812)
+
+[node name="Bouncer63" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1289, -272)
+
+[node name="Bouncer64" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1291, -448)
+
+[node name="Bouncer65" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1442, 85)
+
+[node name="Bouncer66" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1444, -91)
+
+[node name="Bouncer67" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1442, 449)
+
+[node name="Bouncer68" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1444, 273)
+
+[node name="Bouncer69" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1616, 85)
+
+[node name="Bouncer70" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1618, -91)
+
+[node name="Bouncer71" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1616, 449)
+
+[node name="Bouncer72" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1618, 273)
+
+[node name="Bouncer73" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1803, 85)
+
+[node name="Bouncer74" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1805, -91)
+
+[node name="Bouncer75" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1803, 449)
+
+[node name="Bouncer76" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1805, 273)
+
+[node name="Bouncer77" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1977, 85)
+
+[node name="Bouncer78" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1979, -91)
+
+[node name="Bouncer79" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1977, 449)
+
+[node name="Bouncer80" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1979, 273)
+
+[node name="Bouncer81" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1442, -636)
+
+[node name="Bouncer82" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1444, -812)
+
+[node name="Bouncer83" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1442, -272)
+
+[node name="Bouncer84" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1444, -448)
+
+[node name="Bouncer85" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1616, -636)
+
+[node name="Bouncer86" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1618, -812)
+
+[node name="Bouncer87" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1616, -272)
+
+[node name="Bouncer88" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1618, -448)
+
+[node name="Bouncer89" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1803, -636)
+
+[node name="Bouncer90" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1805, -812)
+
+[node name="Bouncer91" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1803, -272)
+
+[node name="Bouncer92" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1805, -448)
+
+[node name="Bouncer93" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1977, -636)
+
+[node name="Bouncer94" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1979, -812)
+
+[node name="Bouncer95" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1977, -272)
+
+[node name="Bouncer96" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1979, -448)
+
+[node name="Bouncer97" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2168, 85)
+
+[node name="Bouncer98" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2170, -91)
+
+[node name="Bouncer99" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2168, 449)
+
+[node name="Bouncer100" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2170, 273)
+
+[node name="Bouncer101" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2342, 85)
+
+[node name="Bouncer102" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2344, -91)
+
+[node name="Bouncer103" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2342, 449)
+
+[node name="Bouncer104" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2344, 273)
+
+[node name="Bouncer105" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2529, 85)
+
+[node name="Bouncer106" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2531, -91)
+
+[node name="Bouncer107" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2529, 449)
+
+[node name="Bouncer108" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2531, 273)
+
+[node name="Bouncer109" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2703, 85)
+
+[node name="Bouncer110" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2705, -91)
+
+[node name="Bouncer111" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2703, 449)
+
+[node name="Bouncer112" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2705, 273)
+
+[node name="Bouncer113" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2168, -636)
+
+[node name="Bouncer114" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2170, -812)
+
+[node name="Bouncer115" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2168, -272)
+
+[node name="Bouncer116" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2170, -448)
+
+[node name="Bouncer117" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2342, -636)
+
+[node name="Bouncer118" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2344, -812)
+
+[node name="Bouncer119" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2342, -272)
+
+[node name="Bouncer120" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2344, -448)
+
+[node name="Bouncer121" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2529, -636)
+
+[node name="Bouncer122" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2531, -812)
+
+[node name="Bouncer123" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2529, -272)
+
+[node name="Bouncer124" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2531, -448)
+
+[node name="Bouncer125" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2703, -636)
+
+[node name="Bouncer126" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2705, -812)
+
+[node name="Bouncer127" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2703, -272)
+
+[node name="Bouncer128" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2705, -448)
+
+[node name="Bouncer129" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-28, 1564)
+
+[node name="Bouncer130" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-30, 1388)
+
+[node name="Bouncer131" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-28, 1928)
+
+[node name="Bouncer132" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-30, 1752)
+
+[node name="Bouncer133" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-202, 1564)
+
+[node name="Bouncer134" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-204, 1388)
+
+[node name="Bouncer135" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-202, 1928)
+
+[node name="Bouncer136" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-204, 1752)
+
+[node name="Bouncer137" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-389, 1564)
+
+[node name="Bouncer138" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-391, 1388)
+
+[node name="Bouncer139" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-389, 1928)
+
+[node name="Bouncer140" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-391, 1752)
+
+[node name="Bouncer141" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-563, 1564)
+
+[node name="Bouncer142" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-565, 1388)
+
+[node name="Bouncer143" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-563, 1928)
+
+[node name="Bouncer144" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-565, 1752)
+
+[node name="Bouncer145" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-28, 843)
+
+[node name="Bouncer146" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-30, 667)
+
+[node name="Bouncer147" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-28, 1207)
+
+[node name="Bouncer148" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-30, 1031)
+
+[node name="Bouncer149" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-202, 843)
+
+[node name="Bouncer150" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-204, 667)
+
+[node name="Bouncer151" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-202, 1207)
+
+[node name="Bouncer152" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-204, 1031)
+
+[node name="Bouncer153" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-389, 843)
+
+[node name="Bouncer154" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-391, 667)
+
+[node name="Bouncer155" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-389, 1207)
+
+[node name="Bouncer156" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-391, 1031)
+
+[node name="Bouncer157" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-563, 843)
+
+[node name="Bouncer158" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-565, 667)
+
+[node name="Bouncer159" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-563, 1207)
+
+[node name="Bouncer160" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-565, 1031)
+
+[node name="Bouncer161" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-754, 1564)
+
+[node name="Bouncer162" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-756, 1388)
+
+[node name="Bouncer163" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-754, 1928)
+
+[node name="Bouncer164" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-756, 1752)
+
+[node name="Bouncer165" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-928, 1564)
+
+[node name="Bouncer166" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-930, 1388)
+
+[node name="Bouncer167" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-928, 1928)
+
+[node name="Bouncer168" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-930, 1752)
+
+[node name="Bouncer169" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1115, 1564)
+
+[node name="Bouncer170" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1117, 1388)
+
+[node name="Bouncer171" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1115, 1928)
+
+[node name="Bouncer172" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1117, 1752)
+
+[node name="Bouncer173" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1289, 1564)
+
+[node name="Bouncer174" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1291, 1388)
+
+[node name="Bouncer175" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1289, 1928)
+
+[node name="Bouncer176" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1291, 1752)
+
+[node name="Bouncer177" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-754, 843)
+
+[node name="Bouncer178" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-756, 667)
+
+[node name="Bouncer179" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-754, 1207)
+
+[node name="Bouncer180" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-756, 1031)
+
+[node name="Bouncer181" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-928, 843)
+
+[node name="Bouncer182" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-930, 667)
+
+[node name="Bouncer183" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-928, 1207)
+
+[node name="Bouncer184" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-930, 1031)
+
+[node name="Bouncer185" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1115, 843)
+
+[node name="Bouncer186" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1117, 667)
+
+[node name="Bouncer187" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1115, 1207)
+
+[node name="Bouncer188" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1117, 1031)
+
+[node name="Bouncer189" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1289, 843)
+
+[node name="Bouncer190" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1291, 667)
+
+[node name="Bouncer191" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1289, 1207)
+
+[node name="Bouncer192" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1291, 1031)
+
+[node name="Bouncer193" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1442, 1564)
+
+[node name="Bouncer194" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1444, 1388)
+
+[node name="Bouncer195" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1442, 1928)
+
+[node name="Bouncer196" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1444, 1752)
+
+[node name="Bouncer197" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1616, 1564)
+
+[node name="Bouncer198" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1618, 1388)
+
+[node name="Bouncer199" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1616, 1928)
+
+[node name="Bouncer200" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1618, 1752)
+
+[node name="Bouncer201" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1803, 1564)
+
+[node name="Bouncer202" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1805, 1388)
+
+[node name="Bouncer203" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1803, 1928)
+
+[node name="Bouncer204" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1805, 1752)
+
+[node name="Bouncer205" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1977, 1564)
+
+[node name="Bouncer206" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1979, 1388)
+
+[node name="Bouncer207" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1977, 1928)
+
+[node name="Bouncer208" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1979, 1752)
+
+[node name="Bouncer209" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1442, 843)
+
+[node name="Bouncer210" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1444, 667)
+
+[node name="Bouncer211" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1442, 1207)
+
+[node name="Bouncer212" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1444, 1031)
+
+[node name="Bouncer213" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1616, 843)
+
+[node name="Bouncer214" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1618, 667)
+
+[node name="Bouncer215" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1616, 1207)
+
+[node name="Bouncer216" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1618, 1031)
+
+[node name="Bouncer217" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1803, 843)
+
+[node name="Bouncer218" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1805, 667)
+
+[node name="Bouncer219" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1803, 1207)
+
+[node name="Bouncer220" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1805, 1031)
+
+[node name="Bouncer221" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1977, 843)
+
+[node name="Bouncer222" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1979, 667)
+
+[node name="Bouncer223" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1977, 1207)
+
+[node name="Bouncer224" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-1979, 1031)
+
+[node name="Bouncer225" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2168, 1564)
+
+[node name="Bouncer226" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2170, 1388)
+
+[node name="Bouncer227" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2168, 1928)
+
+[node name="Bouncer228" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2170, 1752)
+
+[node name="Bouncer229" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2342, 1564)
+
+[node name="Bouncer230" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2344, 1388)
+
+[node name="Bouncer231" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2342, 1928)
+
+[node name="Bouncer232" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2344, 1752)
+
+[node name="Bouncer233" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2529, 1564)
+
+[node name="Bouncer234" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2531, 1388)
+
+[node name="Bouncer235" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2529, 1928)
+
+[node name="Bouncer236" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2531, 1752)
+
+[node name="Bouncer237" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2703, 1564)
+
+[node name="Bouncer238" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2705, 1388)
+
+[node name="Bouncer239" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2703, 1928)
+
+[node name="Bouncer240" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2705, 1752)
+
+[node name="Bouncer241" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2168, 843)
+
+[node name="Bouncer242" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2170, 667)
+
+[node name="Bouncer243" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2168, 1207)
+
+[node name="Bouncer244" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2170, 1031)
+
+[node name="Bouncer245" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2342, 843)
+
+[node name="Bouncer246" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2344, 667)
+
+[node name="Bouncer247" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2342, 1207)
+
+[node name="Bouncer248" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2344, 1031)
+
+[node name="Bouncer249" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2529, 843)
+
+[node name="Bouncer250" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2531, 667)
+
+[node name="Bouncer251" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2529, 1207)
+
+[node name="Bouncer252" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2531, 1031)
+
+[node name="Bouncer253" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2703, 843)
+
+[node name="Bouncer254" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2705, 667)
+
+[node name="Bouncer255" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2703, 1207)
+
+[node name="Bouncer256" parent="Bouncers" instance=ExtResource("2_cemct")]
+position = Vector2(-2705, 1031)

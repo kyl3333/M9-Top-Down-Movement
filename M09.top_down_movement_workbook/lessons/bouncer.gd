@@ -1,5 +1,5 @@
 extends CharacterBody2D
-@export var max_speed := 600.0
+@export var max_speed := 580.0
 @export var acceleration := 1200.0
 @export var avoidance_strength := 21000.0
 
